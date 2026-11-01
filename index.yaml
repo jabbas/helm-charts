@@ -4,6 +4,26 @@ entries:
   - annotations:
       artifacthub.io/license: Apache-2.0
     apiVersion: v2
+    appVersion: 0.1.4
+    created: "2026-11-01T23:51:53.16707469Z"
+    description: Kubernetes operator that generates and rotates Secrets from SecretSpec resources.
+    digest: a396f499b1fbde10230b488bf7daa431bae18da78e9d803f313dafe3b5948b56
+    home: https://github.com/jabbas/secretspec-operator
+    keywords:
+    - secrets
+    - operator
+    - password
+    - ssh
+    name: secretspec-operator
+    sources:
+    - https://github.com/jabbas/secretspec-operator
+    type: application
+    urls:
+    - https://github.com/jabbas/secretspec-operator/releases/download/0.1.4/secretspec-operator-0.1.4.tgz
+    version: 0.1.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+    apiVersion: v2
     appVersion: 0.1.4-rc.2
     created: "2026-11-01T22:49:09.068816928Z"
     description: Kubernetes operator that generates and rotates Secrets from SecretSpec resources.
@@ -221,4 +241,4 @@ entries:
     urls:
     - https://github.com/jabbas/secretspec-operator/releases/download/v0.1.0-rc.1/secretspec-operator-0.1.0-rc.1.tgz
     version: 0.1.0-rc.1
-generated: "2026-11-01T22:49:09.068155997Z"
+generated: "2026-11-01T23:51:53.165781099Z"
