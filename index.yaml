@@ -241,4 +241,15 @@ entries:
     urls:
     - https://github.com/jabbas/secretspec-operator/releases/download/v0.1.0-rc.1/secretspec-operator-0.1.0-rc.1.tgz
     version: 0.1.0-rc.1
-generated: "2026-11-01T23:51:53.165781099Z"
+  homepage:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-11-03T23:31:42.547913827Z"
+    description: Statyczna strona osobista dziegielew.ski serwowana przez nginx
+    digest: 1681e9418b8aecf5be65043ab233cf18a98b3f440aca2c09a0a5b619c0870a92
+    name: homepage
+    type: application
+    urls:
+    - https://github.com/jabbas/homepage-dziegielew.ski/releases/download/0.1.0/homepage-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-11-03T23:31:42.546671561Z"
