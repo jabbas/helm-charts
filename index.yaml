@@ -243,6 +243,16 @@ entries:
     version: 0.1.0-rc.1
   homepage:
   - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2026-11-04T20:17:23.400324331Z"
+    description: Statyczna strona osobista dziegielew.ski serwowana przez nginx
+    digest: c68d5ec0c38d0c00dd0ae3f118f8771fdff4bfd83fd68196fe9e351161d98697
+    name: homepage
+    type: application
+    urls:
+    - https://github.com/jabbas/homepage-dziegielew.ski/releases/download/0.1.2/homepage-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.1.1
     created: "2026-11-04T20:01:49.741069561Z"
     description: Statyczna strona osobista dziegielew.ski serwowana przez nginx
@@ -262,4 +272,4 @@ entries:
     urls:
     - https://github.com/jabbas/homepage-dziegielew.ski/releases/download/0.1.0/homepage-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-04T20:01:49.740338345Z"
+generated: "2026-11-04T20:17:23.399186859Z"
