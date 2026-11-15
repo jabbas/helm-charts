@@ -18,7 +18,8 @@ helm search repo jabbas --devel
 
 | Chart | Source |
 |-------|--------|
-| `secretspec-operator` | [jabbas/secretspec-operator](https://github.com/jabbas/secretspec-operator) |
+| `generated-secrets-operator` | [jabbas/generated-secrets-operator](https://github.com/jabbas/generated-secrets-operator) |
+| `secretspec-operator` | Renamed to `generated-secrets-operator` in 0.2.0 (old versions stay installable). |
 
 ## How it works
 
@@ -36,7 +37,7 @@ For signed (cosign) artifacts, use the OCI charts instead:
 helm pull oci://ghcr.io/jabbas/charts/<chart> --version <version>
 ```
 
-e.g. `oci://ghcr.io/jabbas/charts/secretspec-operator`.
+e.g. `oci://ghcr.io/jabbas/charts/generated-secrets-operator`.
 
 ## License
 
