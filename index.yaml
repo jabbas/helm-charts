@@ -362,4 +362,25 @@ entries:
     urls:
     - https://github.com/jabbas/homepage-dziegielew.ski/releases/download/0.1.0/homepage-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-11T23:29:31.507793038Z"
+  generated-secrets-operator:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+    apiVersion: v2
+    appVersion: 0.2.0-rc.1
+    created: "2026-11-15T10:57:54.635432177Z"
+    description: Kubernetes operator that generates and rotates Secrets from GeneratedSecret resources.
+    digest: d48344c3f47e247b8596b75294f416f407da80e6df04e5c3d3dd1116bcfe7034
+    home: https://github.com/jabbas/generated-secrets-operator
+    keywords:
+    - secrets
+    - operator
+    - password
+    - ssh
+    name: generated-secrets-operator
+    sources:
+    - https://github.com/jabbas/generated-secrets-operator
+    type: application
+    urls:
+    - https://github.com/jabbas/generated-secrets-operator/releases/download/0.2.0-rc.1/generated-secrets-operator-0.2.0-rc.1.tgz
+    version: 0.2.0-rc.1
+generated: "2026-11-15T10:57:54.634549929Z"
