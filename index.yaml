@@ -399,6 +399,59 @@ entries:
       artifacthub.io/operator: "true"
       artifacthub.io/operatorCapabilities: Seamless Upgrades
     apiVersion: v2
+    appVersion: 0.2.0
+    created: "2026-11-15T14:01:59.607268677Z"
+    description: Kubernetes operator that generates and rotates Secrets from GeneratedSecret resources.
+    digest: 58ecb461b72c8c23da60db28d2b4ec627ac56bb29a18446274dba46aecfbfd11
+    home: https://github.com/jabbas/generated-secrets-operator
+    keywords:
+    - secrets
+    - operator
+    - password
+    - ssh
+    name: generated-secrets-operator
+    sources:
+    - https://github.com/jabbas/generated-secrets-operator
+    type: application
+    urls:
+    - https://github.com/jabbas/generated-secrets-operator/releases/download/0.2.0/generated-secrets-operator-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/crds: |
+        - kind: GeneratedSecret
+          version: v1alpha1
+          name: generatedsecrets.generatedsecrets.jabbas.eu
+          displayName: Generated Secret
+          description: Declares a Secret whose values (passwords, tokens, random bytes, SSH key pairs or basic-auth credentials) the operator generates once and keeps stable.
+      artifacthub.io/crdsExamples: |
+        - apiVersion: generatedsecrets.jabbas.eu/v1alpha1
+          kind: GeneratedSecret
+          metadata:
+            name: app-admin
+          spec:
+            deletionPolicy: Retain
+            data:
+              username: admin
+            fields:
+              - name: password
+      artifacthub.io/images: |
+        - name: generated-secrets-operator
+          image: ghcr.io/jabbas/generated-secrets-operator:0.2.0
+          platforms:
+            - linux/amd64
+            - linux/arm64
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: source
+          url: https://github.com/jabbas/generated-secrets-operator
+        - name: documentation
+          url: https://github.com/jabbas/generated-secrets-operator/tree/main/docs
+        - name: support
+          url: https://github.com/jabbas/generated-secrets-operator/issues
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Seamless Upgrades
+    apiVersion: v2
     appVersion: 0.2.0-rc.2
     created: "2026-11-15T12:20:31.536636654Z"
     description: Kubernetes operator that generates and rotates Secrets from GeneratedSecret resources.
@@ -436,4 +489,4 @@ entries:
     urls:
     - https://github.com/jabbas/generated-secrets-operator/releases/download/0.2.0-rc.1/generated-secrets-operator-0.2.0-rc.1.tgz
     version: 0.2.0-rc.1
-generated: "2026-11-15T12:20:31.535996639Z"
+generated: "2026-11-15T14:01:59.606463915Z"
